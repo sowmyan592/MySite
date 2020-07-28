@@ -1,0 +1,393 @@
+﻿/*
+    icons of social media
+*/
+
+
+
+
+    .textbo {
+        font-weight: bold;
+    }
+
+    .sowmyapic {
+        border-radius: 70% !important;
+        height: 100px !important;
+        width: 100px !important;
+    }
+
+    .fa {
+        padding: 20px;
+        font-size: 30px;
+        width: 50px;
+        text-align: center;
+        text-decoration: none;
+        margin: 5px 2px;
+        border-radius: 50%;
+    }
+
+        .fa:hover {
+            opacity: 0.8;
+        }
+
+    .fa-facebook {
+        background: #3B5998;
+        color: white;
+    }
+
+    .fa-twitter {
+        background: #55ACEE;
+        color: white;
+    }
+
+    .fa-linkedin {
+        background: #007bb5;
+        color: white;
+    }
+
+    .fa-instagram {
+        background: #125688;
+        color: white;
+    }
+    /*Ending of Icons*/
+    body {
+        background: url('../src/Attachments/Main_Image.jpg') no-repeat center center fixed;
+        background-size: cover;
+    }
+
+    .imgscreen {
+        object-fit: cover;
+        height: 100vh;
+    }
+
+    @media(min-width:900px) {
+        .first_gap {
+            padding-top: 50px;
+        }
+
+        .namehigh {
+            color: #9A1750;
+            font-weight: bold;
+            font-size: 28px;
+        }
+    }
+
+    @media(min-width:0px) and (max-width:900px) {
+        .first_gap {
+            padding-top: 40px;
+        }
+
+        .namehigh {
+            color: #9A1750;
+            font-weight: bold;
+            font-size: 22px;
+        }
+    }
+
+    @media(min-width:600px) and (max-width:900px) {
+        .namehigh {
+            color: #9A1750;
+            font-weight: bold;
+            font-size: 26px;
+        }
+    }
+
+    @media(min-width:0px) and (max-width:600px) {
+        .namehigh {
+            color: #9A1750;
+            font-weight: bold;
+            font-size: 20px;
+        }
+    }
+
+    @media (min-width: 768px) {
+        .matpad {
+            max-width: 847px;
+        }
+    }
+
+    @media(min-width:900px) {
+        .workexpad {
+            padding-bottom: 40px;
+        }
+    }
+
+    @media(min-width:900px) {
+        .workexpad {
+            padding-bottom: 80px;
+        }
+
+        .imgworkexpad {
+            margin-top: 50px !important;
+        }
+    }
+
+    @media(min-width:300px) and (max-width:900px) {
+        .workexpad {
+            padding-bottom: 40px;
+        }
+    }
+
+    @media(min-width:600px) and (max-width:900) {
+        .matterfont {
+            font-size: 18px !important;
+        }
+    }
+
+    @media(min-width:900px) {
+        .matterfont {
+            font-size: 20px !important;
+        }
+
+        .carouselimgprop {
+            height: 400px !important;
+            align-content: center !important;
+            align-items: center !important;
+            width: 515px !important;
+        }
+
+        .gapcer {
+            padding-bottom: 50px !important;
+        }
+
+        .caroselbor {
+            height: 400px !important;
+            align-content: center !important;
+            align-items: center !important;
+            width: 515px !important;
+            margin-bottom: 100px !important;
+        }
+    }
+
+    @media(min-width:0px) and (max-width:900px) {
+        .carouselimgprop {
+            height: 300px !important;
+            align-content: center !important;
+            align-items: center !important;
+            width: 300px !important;
+        }
+
+        .gapcer {
+            padding-bottom: 30px !important;
+        }
+
+        .caroselbor {
+            height: 300px !important;
+            align-content: center !important;
+            align-items: center !important;
+            width: 300px !important;
+            margin-bottom: 60px !important;
+        }
+    }
+
+
+    .navhead {
+        color: white !important;
+    }
+
+    @media (min-width:600px) {
+
+        .restext {
+            font-size: 20px !important;
+        }
+
+        .resdownl {
+            font-size: 28px !important;
+        }
+
+        .headingofskills {
+            font-size: 40px !important;
+            font-weight: bold !important;
+        }
+
+        .subheadingofskills {
+            font-size: 30px !important;
+            font-weight: bold !important;
+        }
+    }
+
+    @media (min-width:0px) and (max-width:600px) {
+        .matterfont {
+            font-size: 15px !important;
+        }
+
+        .restext {
+            font-size: 18px !important;
+        }
+
+        .resdownl {
+            font-size: 20px !important;
+        }
+
+        .headingofskills {
+            font-size: 30px !important;
+            font-weight: bold !important;
+        }
+
+        .subheadingofskills {
+            font-size: 20px !important;
+            font-weight: bold !important;
+        }
+    }
+
+    .textheading {
+        color: white !important;
+        font-weight: bold;
+        margin-left: 20px;
+    }
+
+    @media (max-width:400px) {
+        .mailhead {
+            font-size: 24px !important;
+            font-weight: bold;
+            color: white;
+            padding-left: 20px;
+        }
+    }
+
+    @media (min-width:400px) {
+        .mailhead {
+            font-size: 30px !important;
+            color: white;
+            font-weight: bold;
+        }
+    }
+
+    .paddingdiv {
+        padding-bottom: 100px;
+    }
+
+    @media(min-width:500px) {
+        .mailsend {
+            padding: 0px 125px 0px 125px !important;
+        }
+    }
+
+    .skillsgapbtn {
+        padding-bottom: 10px;
+    }
+
+    @media(min-width:600px) {
+        .img {
+            height: 150px !important;
+            width: 150px !important;
+        }
+
+        .center-block {
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+        }
+    }
+
+    @media(max-width:600px) {
+        .img {
+            height: 100px !important;
+            width: 100px !important;
+        }
+
+        .center-block {
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+        }
+    }
+
+    .skilssimg {
+        padding-top: 10px;
+        margin-left: auto;
+        margin-right: auto;
+        height: 80px;
+        width: 80px;
+        align-content: center;
+        align-items: center;
+    }
+
+    .mattercenter {
+        padding-left: 10px;
+        padding-right: 10px;
+        padding-top: 15px;
+        margin-left: auto;
+        margin-right: auto;
+        align-content: center;
+        text-align: center;
+    }
+
+    @media (min-width:1200px) {
+        .skillset {
+            height: 375px;
+        }
+    }
+
+    @media (min-width:900px) and (max-width:1200px) {
+        .skillset {
+            height: 370px;
+        }
+    }
+
+    @media (min-width:800px) and (max-width:900px) {
+        .skillset {
+            height: 360px;
+        }
+    }
+
+    .rowskilssimg {
+        align-content: center;
+        align-items: center;
+    }
+
+    .mainhome {
+        background-color: #9A1750;
+    }
+
+    .resumepadding, .emailpad {
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    @media(min-width:900px)and (max-width:12000px) {
+        .mailpad {
+            width: 540px;
+        }
+    }
+
+    @media(min-width:600px) and (max-width:899px) {
+        .mailpad {
+            width: 500px;
+        }
+    }
+
+    .centertext {
+        text-align: center;
+    }
+
+    .padding-headers {
+        font-weight: bold;
+        padding-top: 40px;
+        padding-bottom: 20px;
+        font-size: large;
+    }
+
+    .textbold {
+        font-weight: bold;
+        color: black;
+        font-size: 18px !important;
+    }
+
+    @media (min-width:990px) {
+        .padimg {
+            padding-top: 10px !important;
+        }
+    }
+
+    @media (min-width:300px) and (max-width:990px) {
+        .padimgsmall {
+            padding-bottom: 15px !important;
+        }
+
+        .margincenter {
+            align-content: center;
+            align-items: center;
+            margin-left: auto;
+            margin-right: auto;
+        }
+    }
